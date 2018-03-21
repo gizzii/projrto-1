@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "montserrat-regular";
+	src: url("../fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2"), 
+	     url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "montserrat-bold";
+	src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"), 
+	     url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+.header-site{
+	background-image: url(../img/shutterstock_293681819.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	font-family: "montserrat-regular", sans-serif;
+	font-size: 36px;
+	padding-top: 300px;
+	padding-bottom: 600px
+}
+
+.content-site{
+	padding-top: 250px;
+	padding-bottom: 250px;
+	padding-left: 350px;
+	padding-right: 350px
+}
+
+h1{
+	font-family: 'Montserrat-bold', sans-serif;
+	font-size: 60px
+}
+
+.button{
+	padding-left: 200px;
+	padding-right: 200px
+}
+
+.footer{
+	background-color: dimgray;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	color: white;
+}
+
+.name-footer{
+	padding-top: 20px;
+	padding-bottom: 5px
+}
